@@ -1,0 +1,22 @@
+html{
+  background-color: black;
+  color: white;
+}
+div{
+  text-align: center;
+
+}
+ul{
+  list-style-type: none;
+/* }
+.customer_types{
+  max-width: 100%;
+  min-width: 50%;
+  min-height: 20%;
+  display: inline;
+  border: 5px solid green;
+}
+.preferred_customer, .commercial, .retail{
+  min-width: 20%;
+  display: inline;
+} */
