@@ -1,6 +1,5 @@
 html{
   background-color: black;
-  color: white;
 }
 div{
   text-align: center;
@@ -8,15 +7,89 @@ div{
 }
 ul{
   list-style-type: none;
-/* }
-.customer_types{
-  max-width: 100%;
-  min-width: 50%;
-  min-height: 20%;
-  display: inline;
-  border: 5px solid green;
+  /* text-align: center; */
 }
-.preferred_customer, .commercial, .retail{
-  min-width: 20%;
-  display: inline;
+a{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: #fcb338;
+}
+/* .atv_utv, .dirtbike, .saber, .snowmobile{
+  width: 25%;
+  height: 25%;
+  float: left;
+
 } */
+.categories{
+  margin: auto;
+  width: 67%;
+  height: 250px;
+  padding-bottom: 25px;
+  /* height: 100%; */
+  /* border: 1px solid brown; */
+}
+.atv_utv, .dirtbike, .saber, .snowmobile{
+  margin: auto;
+  float: left;
+  width: 200px;
+  height: inherit;
+  padding: 10px;
+  /* border: 1px solid pink; */
+}
+h3{
+  color: #fcb338;
+  /* font-family: TimeNewRoman; */
+}
+body{
+  color: white;
+}
+.content{
+  /* border: 1px solid white; */
+  height: 100%;
+}
+.tall_images{
+  margin: auto;
+  width: 60%;
+  height: 90%;
+  padding-top: 10px;
+  /* border: 2px solid orange; */
+}
+.customer_types{
+  width: 60%;
+  margin: auto;
+  font-size: 12pt;
+  padding-top: 25px;
+  /* border: 1px solid blue; */
+
+}
+.preferred_customer, .hunt, .customer{
+  width: 30%;
+  float: left;
+  /* border: 1px solid yellow; */
+  padding: 5px;
+  margin: 5px;
+}
+.contact{
+  width: 60%;
+  margin: auto;
+  /* border: 2px solid white; */
+}
+.name{
+  font-size: 15pt;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.info{
+  /* border: 1px solid blue; */
+  margin: auto;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.footer_image{
+  max-width: 100%;
+}
