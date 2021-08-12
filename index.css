@@ -50,7 +50,7 @@ body{
   /* border: 1px solid hotpink; */
 }
 .content{
-  border: 1px solid aqua;
+  /*border: 1px solid aqua;*/
   width: 100%;
   height: inherit;
   /* padding-left: 50px;
@@ -61,12 +61,12 @@ body{
 .center_content{
   width: 47%;
   /* margin: auto; */
-  border: 1px solid teal;
+  /*border: 1px solid teal;*/
   float: left;
 }
 .left_side{
   /* margin: auto; */
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
   width: 25%;
   float: left;
 }
@@ -74,7 +74,7 @@ body{
   /* margin: auto; */
   width: 25%;
   float: left;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 .diesel{
   /* border: 1px solid purple; */
