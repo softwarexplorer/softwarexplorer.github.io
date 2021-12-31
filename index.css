@@ -4,7 +4,7 @@ html{
   background-color: black;
   text
 }
-li, p, h1, h3, .menu{
+li, p, h1, h3, .menu, .contact{
   text-align: center;
 }
 ul{
@@ -22,40 +22,33 @@ a.options{
 .menu{
   padding-top: 25px;
 }
-.title{
-  border-radius: 5px;
-  width: 41%;
-  height: 50%;
-  overflow: auto;
-  background-size: contain;
-  /* border: 1px solid green; */
-  background-repeat: no-repeat;
-  margin: auto;
-  background-image: url("./files/logo_white_background.jpg");
+.title_image{
+  height: 100;
+  width: 200;
 }
 
 a:visited{
   color: white;
   text-decoration: none;
 }
-.info{
-  text-decoration: none;
-}
 .customer{
   /* border: 5px solid lightgrey; */
   margin: auto;
 }
+.customer img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
 .quotes{
   font-size: 20pt;
 }
-/* .categories{
-  margin: auto;
-  width: auto;
-  height: auto;
-  padding-bottom: 25px;
-  /* height: 100%; */
-  /* border: 1px solid brown; */
-/* } */
+a.email{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
 .atv_utv, .dirtbike, .saber, .snowmobile, .motorcycle{
   margin: auto;
   display: inline-block;
@@ -64,10 +57,7 @@ a:visited{
   padding: 5px;
   /* border: 1px solid pink; */
 }
-.atv_utv, .dirtbike, .saber, .snowmobile, .motorcycle img{
-  height: 200px;
-  width: 200px;
-}
+
 h3{
   /* color: #fcb338; */
 }
@@ -85,31 +75,47 @@ body{
   /* margin-left: auto;
   margin-right: auto; */
 }
-
 .contact{
-  width: auto;
-  margin: auto;
-  /* border: 2px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  /* border: 1px solid purple; */
 }
 .name{
-  font-size: 15pt;
+  height: auto;
+  /* border: 2px solid white; */
+}
+.info_half{
   /* border: 1px solid red; */
-  margin: auto;
+  /* height: inherit; */
+  font-size: 25pt;
 }
+
 .info{
-  /* border: 1px solid lightblue; */
-  margin: auto;
+  font-size: 15pt;
+  float: right;
+  /* border: 2px solid teal; */
 }
-/* .shop_now_button{ */
-  /* margin: auto; */
-/* } */
-img{
-  margin-left: auto;
-  margin-right: auto;
+.info p{
   display: block;
-  max-width: 100%;
-  max-height: 100%;
 }
-/* .footer_image{
-  max-width: 100%;
-} */
+.contact img{
+  height: 250px;
+  border-radius: 5px;
+}
+.name{
+  font-size: 27pt;
+  /* border: 1px solid pink; */
+  /* float: right; */
+  /* margin: auto; */
+}
+.img_half, .info_half{
+  float: left;
+  display: flex;
+}
+.img_half{
+  flex: 60%;
+}
+.info_half{
+  flex: 35%;
+}
