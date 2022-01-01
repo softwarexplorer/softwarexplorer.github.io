@@ -2,25 +2,38 @@ html{
   color: white;
   font-family: sans-serif;
   background-color: black;
-  text
+  /* margin-left: 5%;
+  margin-right: 5% */
 }
-li, p, h1, h3, .menu, .contact{
+.details{
+  /* border: 2px solid pink; */
+  display: 30%;
+  text-align: left;
+  margin-left: 5%;
+  overflow: auto;
+}
+h1, .menu, .contact, .reference, label{
   text-align: center;
 }
-ul{
-  list-style-type: none;
-  /* text-align: center; */
+.reference{
+  font-size: 15pt;
+}
+.menu{
+  /* border: 2px solid teal; */
 }
 a.options{
   text-decoration: none;
   border: 1px solid #FCBC52;
+  display: block;
+  float: left;
   color: white;
-  padding: 15px;
+  padding: 1%;
+  margin: 5px;
   font-size: 15pt;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .menu{
-  padding-top: 25px;
+  padding-top: 1.5%;
 }
 .title_image{
   height: 100;
@@ -35,11 +48,15 @@ a:visited{
   /* border: 5px solid lightgrey; */
   margin: auto;
 }
+.customer{
+  /* border: 1px solid red; */
+}
 .customer img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
+  /* border: 1px solid pink; */
+  width: 100%;
 }
 .quotes{
   font-size: 20pt;
@@ -49,73 +66,43 @@ a.email{
   text-align: center;
   color: white;
 }
-.atv_utv, .dirtbike, .saber, .snowmobile, .motorcycle{
-  margin: auto;
-  display: inline-block;
-  width: auto;
-  height: auto;
-  padding: 5px;
-  /* border: 1px solid pink; */
-}
 
-h3{
-  /* color: #fcb338; */
+h3, label{
+  color: #fcb338;
 }
 body{
   /* color: white; */
-  height: auto%;
+  height: auto;
+  width: 95%;
   /* border: 1px solid hotpink; */
 }
 .content{
-  /*border: 1px solid aqua;*/
+  /* border: 1px solid aqua; */
   width: 100%;
   height: inherit;
-  /* padding-left: 50px;
-  padding-right: 50px; */
+  display: inline-flex;
+  flex-direction: row;
+  /* padding-left: 2.5%; */
+  /*padding-right: 50px; */
   /* margin-left: auto;
   margin-right: auto; */
 }
-.contact{
-  display: flex;
-  flex-wrap: wrap;
-  height: 250px;
-  /* border: 1px solid purple; */
-}
-.name{
-  height: auto;
-  /* border: 2px solid white; */
-}
-.info_half{
-  /* border: 1px solid red; */
-  /* height: inherit; */
-  font-size: 25pt;
-}
 
-.info{
+.contact{
   font-size: 15pt;
-  float: right;
+  margin: auto;
   /* border: 2px solid teal; */
 }
 .info p{
   display: block;
 }
-.contact img{
-  height: 250px;
-  border-radius: 5px;
+.logo img{
+  height: 37.5%;
+  border-radius: 10px;
+  border: 2px solid #F12D25;
+  margin: auto;
+  display: block;
 }
 .name{
-  font-size: 27pt;
-  /* border: 1px solid pink; */
-  /* float: right; */
-  /* margin: auto; */
-}
-.img_half, .info_half{
-  float: left;
-  display: flex;
-}
-.img_half{
-  flex: 60%;
-}
-.info_half{
-  flex: 35%;
+  font-size: 21pt;
 }
