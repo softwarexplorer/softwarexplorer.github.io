@@ -21,6 +21,14 @@ h1, .menu, .contact, .reference, label{
 .menu{
   /* border: 2px solid teal; */
 }
+.catalog{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.catalog:hover{
+  color:  #FCBC52;
+}
 a.options{
   text-decoration: none;
   border: 1px solid #FCBC52;
@@ -32,8 +40,15 @@ a.options{
   font-size: 15pt;
   border-radius: 10px;
 }
+a.options:hover{
+  background-color: #FCBC52;
+  color: black;
+}
 .menu{
   padding-top: 1.5%;
+  /* border: 2px solid blue; */
+  width: 55%;
+  margin: auto;
 }
 .title_image{
   height: 100;
@@ -51,11 +66,23 @@ a:visited{
 .customer{
   /* border: 1px solid red; */
 }
+img#commercial, img#preferred{
+  width: 50%;
+}
+#tiktok{
+  width: 15%;
+  /* border: 2px solid blue; */
+}
+.tik{
+  margin: auto;
+  /* border: 2px solid red; */
+}
 .customer img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   /* border: 1px solid pink; */
+  border-radius: 15px;
   width: 100%;
 }
 .quotes{
